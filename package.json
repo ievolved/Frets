@@ -1,0 +1,21 @@
+{
+  "name": "frets",
+  "version": "0.0.1",
+  "description": "Browser-based tablature notation editor.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/ievolved/frets.git",
+  "author": "Shawn Bullock",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/ievolved/frets#readme",
+  "private": true,
+  "workspaces": [
+    "src/client",
+    "src/core/engine"
+  ]
+}
